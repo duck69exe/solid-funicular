@@ -27,5 +27,5 @@ while True:
   driver = uc.Chrome(options=options, version_main=103)  # version_main allows to specify your chrome version instead of following chrome global version
   driver.set_window_size(1920, 1080)
   driver.get("https://www.twitch.tv/bluezczatupl")
-  time.sleep(600)
+  time.sleep(60)
   driver.close()
