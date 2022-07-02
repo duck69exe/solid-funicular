@@ -28,4 +28,4 @@ driver = uc.Chrome(options=options, version_main=103)  # version_main allows to 
 driver.set_window_size(1920, 1080)
 while True:
   driver.get("https://www.twitch.tv/bluezczatupl")
-  time.sleep(60)
+  time.sleep(10)
